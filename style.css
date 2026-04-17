@@ -1,0 +1,59 @@
+body {
+    background-color: lightgreen;
+    font-family: Arial;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    color: green;
+}
+
+h2 {
+    color: darkgreen;
+}
+
+p {
+    color: black;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+/* CARD */
+.card {
+    background-color: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+/* CENTER */
+.center {
+    text-align: center;
+}
+
+/* FOTO BULAT + FRAME */
+.foto-profil {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid green;
+}
+
+/* GALLERY */
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.gallery img {
+    width: 180px;
+    border-radius: 10px;
+    border: 3px solid green;
+}
